@@ -14,8 +14,12 @@
 
 // setup() runs once, when the device is first turned on.
 void setup() {
-  // Put initialization like pinMode and begin functions here.
+  // Set the mode to output for the relay controlling the pump
+  pinMode(PUMP_PIN,OUPUT);
+  // Turn the pump off by default
+  digitalWrite(PUMP_PIN,LOW);
 
+  
 }
 
 // loop() runs over and over again, as quickly as it can execute.
