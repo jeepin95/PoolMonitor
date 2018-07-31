@@ -5,6 +5,13 @@
  * Date: 7/30/2018
  */
 
+#define ONE_WIRE_BUS 5
+#define PUMP_PIN 6
+
+#define VERSION 0.9
+#define PRECISION 5
+
+
 // setup() runs once, when the device is first turned on.
 void setup() {
   // Put initialization like pinMode and begin functions here.
